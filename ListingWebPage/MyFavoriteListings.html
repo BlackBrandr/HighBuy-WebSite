@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="ListingWebPage.css">
+<style>
+
+</style>
+</head>
+<body>
+    <div class="searchbar">
+        <h1 class="logo"><a href="/HomePage/Home Page.html">HighBuy</a></h1>
+        <form style="float:center; margin:25px; display:inline-block;line-height:52px;padding-right:14px;">
+            <input type="text" name="searchbar" placeholder="search.." size="50">
+        </form>
+        <div class="dropdown">
+            <button class="dropbtn" style="float: right; margin-bottom: 26px ">Categories</button>
+            <div class="dropdown-content">
+              <a href="BuyItNowListing.html">Buy It Now</a>
+              <a href="AuctionListing.html">Auction</a>
+            </div>
+          </div>
+        <input class='button2' style="float:right; margin-top: 25px; margin-right: 25px;"  type='button' value='Log Out'/>
+    </div>
+    <hr>
+    <div>
+        <h2>Buy It Now</h2>
+        <table>
+            <tr>
+                <td>Listing ID</td>
+                <td>Listing Date</td>
+                <td>Sellers Username</td>
+                <td>Item Price</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>29.03.2022</td>
+                <td>Karataş</td>
+                <td>200$</td>
+                <td><input class='button1' type='button' value='Contact Seller'/></td>
+                <td><input class='button1' type='button' value='Remove'/></td>
+            </tr>
+        </table> 
+        <br>   
+        <br>
+        <hr> 
+        <h2>Auction</h2>
+
+        <table>
+            <tr>
+                <td>Listing ID</td>
+                <td>Listing Date</td>
+                <td>Sellers Username</td>
+                <td>Highest Bid</td>
+                <td>Number of Total Bids</td>
+                <td>Bid Amount</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>29.03.2022</td>
+                <td>Karataş</td>
+                <td>200$</td>
+                <td>30</td>
+                <td>10$</td>
+                <td><input class='button1' type='button' value='Contact Seller'/></td>
+                <td><input class='button1' type='button' value='Place Bid'/></td>
+                <td><input class='button1' type='button' value='Remove'/></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
