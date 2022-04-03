@@ -37,8 +37,8 @@
     position: absolute;
     top: 6.5%;
     left: 0;
-    right: 100px;
-    width: 70%;
+    right: 300px;
+    width: 50%;
     height: 80px;
     padding: 0px;
     margin: -83px auto 0 auto;
@@ -49,7 +49,7 @@
   }
   
   form {
-    height: 96px;
+    height: auto;
   }
   
   input[type="text"] {

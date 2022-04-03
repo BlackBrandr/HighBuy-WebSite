@@ -25,102 +25,107 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" href="/css/searchbar.css">
 <!--===============================================================================================-->
 </head>
 <body>
 	
 	<div class="limiter" style="background-image: url('images/bg-01.jpg');">
+		<h1 class="login100-h1-title">HighBuy</h1>
 
 
-		<div class="searchbar">
-            <h1 class="login100-h1-title">HighBuy</h1>
+        <div class="container-listing-form-btn">
+            <div class="wrap-listing-categories-form-btn">
+                <div class="listing100-form-bgbtn"></div>
+                <a href="NewHomePage.html" class="login100-form-btn">
+                    Home Page
+                </a>
 
+            </div>
         </div>
 
+            <div class="container-listing-form-btn">
+                <div class="wrap-listing-login100-form-btn">
+                    <div class="listing100-form-bgbtn"></div>
+                    <a href="/NewLogin.html" class="login100-form-btn">
+                        Log Out
+                    </a>
+
+                </div>
+            </div>
+
+
 		<div class="container-login100">
-			
+
+            
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
 				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-49">
+						 Create Buy It Now
+					</span>
+
+
+                    <span class="label-input100">Category</span>
+                    <div class="select">
+                        <select>
+                          <option value="1">Electronics</option>
+                          <option value="2">Clothing</option>
+                          <option value="3">Furniture</option>
+                          <option value="4">Book</option>
+                          <option value="5">Decoration</option>
+                        </select>
+                      </div>
+                    <br>
+                    <br>
+
+                    <span class="label-input100">Condition</span>
+                    <div class="select">
+                        <select>
+                          <option value="1">New</option>
+                          <option value="2">Used</option>
+                        </select>
+                      </div>
+
+                    <br>
+                    <br>
+                    <div class="wrap-input100 validate-input m-b-23" data-validate = "Brand is reauired">
+						<span class="label-input100">Brand</span>
+						<input class="input100" type="text" name="brand" placeholder="Please type brand">
+					</div>
+
+                    <br>
+                    <div class="wrap-input100 validate-input m-b-23" data-validate = "Description is reauired">
+						<span class="label-input100">Description</span>
+						<input class="input100" type="text" name="description" placeholder="Please type description">
+					</div>
+
+                    <br>
+                    <div class="wrap-input100 validate-input m-b-23" data-validate = "Item Price is reauired">
+						<span class="label-input100">Item Price</span>
+						<input class="input100" type="number" name="itemprice" placeholder="Please type item price">
+					</div>
+
+                    <br>
+                    <div class="wrap-input100 validate-input m-b-23" data-validate = "Item Price is reauired">
+						<span class="label-input100">Select Image</span>
+                        <br>
+                        <br>
+						<input class="input100" type="file" id="img" name="img" accept="image/*">
+                        
+					</div>
+
 					
 
-                    <div class="container-login100-form-btn">
+					
+					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<a href="Profile.html" class="homepage-btn">
-								Profile
+							<a href="/MyListings.html" class="login100-form-btn">
+								Create Item
 							</a>
 
 						</div>
 					</div>
-                    <br>
-                    <div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<a href="MyMessages.html" class="homepage-btn">
-								My Messages
-							</a>
-						</div>
-					</div>
-                    <br>
-                    <div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<a href="CreateNewListing.html" class="homepage-btn">
-								Create New Listing
-							</a>
-						</div>
-					</div>
-                    <br>
-                    <div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<a href="MyListings.html" class="homepage-btn">
-								My Listings
-							</a>
 
-						</div>
-					</div>
-                    <br>
-                    <div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<a href="MyBids.html" class="homepage-btn">
-								My Bids
-							</a>
-
-						</div>
-					</div>
-                    <br>
-                    <div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<a href="My Purchases.html" class="homepage-btn">
-								My Purchases
-							</a>
-
-						</div>
-					</div>
-                    <br>
-                    <div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<a href="NewMyFavoriteListings.html" class="homepage-btn">
-								My Favorite Listings
-							</a>
-
-						</div>
-					</div>
-					<br>
-                    <div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<a href="NewListingWebpage.html" class="homepage-btn">
-								All Listings
-							</a>
-
-						</div>
-					</div>
 				</form>
 			</div>
 		</div>
